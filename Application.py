@@ -1,11 +1,11 @@
 import streamlit as s
 import qrcode
 
-s.title("QRCode Generator")
-orcode = s.text_input("Enter the URL")  
+s.title("QRCode Generator ⚡⚡⚡")
+orcode = s.text_input("Enter the URL or Link")  
 
 
-app_name = s.text_input("Enter File Name (any new name) : ")
+app_name = s.text_input("Enter File Name (give your QR Code a name) : ")
 
 if s.button('GENERATE'):
     makeqr = qrcode.make(orcode)
@@ -17,5 +17,6 @@ if s.button('GENERATE'):
 
 
     
+
 
 
