@@ -1,10 +1,7 @@
 import streamlit as s
 import qrcode
 
-st.markdown(
-    "<p style='color:red; font-size:48px; font-weight:bold;'>⚡ QR Code Generator ⚡</p>",
-    unsafe_allow_html=True
-)
+s.title("QR Code Generator ⚡⚡⚡")
 orcode = s.text_input("Enter the URL or Link : ")  
 
 
