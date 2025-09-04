@@ -5,9 +5,9 @@ s.title("QRCode Generator")
 orcode = s.text_input("Enter the URL")  
 
 
-app_name = s.text_input("Enter File Name : ")
+app_name = s.text_input("Enter File Name (any new name) : ")
 
-if s.button('SUCESS'):
+if s.button('GENERATE'):
     makeqr = qrcode.make(orcode)
     makeqr.save(f"{app_name}.png")
 
@@ -17,4 +17,5 @@ if s.button('SUCESS'):
 
 
     
+
 
