@@ -7,7 +7,7 @@ orcode = s.text_input("Enter the URL")
 
 app_name = s.text_input("Enter File Name : ")
 
-if s.button('success'):
+if s.button('SUCESS'):
     makeqr = qrcode.make(orcode)
     makeqr.save(f"{app_name}.png")
 
@@ -17,3 +17,4 @@ if s.button('success'):
 
 
     
+
